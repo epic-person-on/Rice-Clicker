@@ -26,4 +26,28 @@ riceFarmButton.addEventListener('click', () => {
 });
 
 riceMillButton.addEventListener('click', () => {
-  if (
+  if (rice >= riceMillCost) {
+    rice -= riceMillCost;
+    ricePerClick += 5;
+    riceMillCost *= 2;
+    riceMillButton.textContent = `Rice Mill (Cost: ${riceMillCost})`;
+    updateRice();
+  }
+});
+
+riceBowlButton.addEventListener('click', () => {
+  if (rice >= riceBowlCost) {
+    rice -= riceBowlCost;
+    ricePerClick += 10;
+    riceBowlCost *= 2;
+    riceBowlButton.textContent = `Rice Bowl (Cost: ${riceBowlCost})`;
+    updateRice();
+  }
+});
+
+function updateRice() {
+  riceCounter.textContent = `${rice} Rice`;
+  riceFarmButton.textContent = `Rice Farm (Cost: ${riceFarmCost})`;
+  riceMillButton.textContent = `Rice Mill (Cost: ${riceMillCost})`;
+  riceBowlButton.textContent = `Rice Bowl (Cost: ${riceBowlCost})`;
+}
