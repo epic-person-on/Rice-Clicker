@@ -34,6 +34,8 @@ button:hover {
   border: 2px solid black;
   padding: 10px;
   margin-top: 20px;
+  border-radius: 0.5rem;
+
 }
 
 .upgrade {
