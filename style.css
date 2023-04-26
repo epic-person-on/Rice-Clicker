@@ -25,6 +25,15 @@ button:hover {
   background-color: #3e8e41;
 }
 
+.upgrades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 20px;
+}
+
 .upgrade {
   background-color: #008CBA;
   color: white;
