@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+#rice-counter {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#rice-button {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #FFE4C4;
+  border: none;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+#rice-button:hover {
+  background-color: #FFDAB9;
+}
+
+#rice-upgrades {
+  margin-top: 2rem;
+  border: 2px solid #A9A9A9;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+#rice-upgrades h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+#rice-upgrades button {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #FFE4C4;
+  border: none;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+#rice-upgrades button:hover {
+  background-color: #FFDAB9;
+}
